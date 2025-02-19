@@ -1,0 +1,16 @@
+Supervised Machine Learning
+
+
+Dataset formula 
+
+𝑌(Curly Y) → The set of all possible labels (output space)
+- Binary = Y={0,1} (spam or not spam).
+- Multi-class classification = Y={cat,dog,rabbit}.
+- Regression = Y=R (any real number).
+
+
+(Curly X) → The set of all possible inputs
+- Images
+- Text
+- Tabular data
+
