@@ -14,3 +14,63 @@ Dataset formula
 - Text
 - Tabular data
 
+P(Distrubtion)
+- Where in the world? (Face Recognition based on 1 race, will not work on another) (Nokai example)
+
+h = Loss function
+h(x) = prediction
+
+
+Hypothesis Classes(H) = Set of all possible functions a model can learn.
+Before finding function h, specify what type of function we are looking for: artificial neural network, desicsion tree, or many other types of classifiers
+- Every succesful ML algorithm must make assumptions - no single ML algorithm works for every setting (No Free Lunch Theorem)
+
+
+Loss Functions = Evaluates how well a given function (hypothesis) is performing by calculating the difference between predictiosn and actualt results.
+- Zero-One Loss
+- Squared Loss
+- Abolute loss
+
+Splitting Data
+- Overfitting = Overfitting is when a model learns the training data too well, 
+  including its noise and outliers, causing poor performance on new, unseen data.
+
+
+Step-by-step procces
+
+1. Define Hypothesis Class H:
+- Classificaton problem = desicion tree, logistic regression or a neural network
+- Regression problem = linear regression, polynomial regrsesion or s upport vector regression
+
+2. Chose a Loss Function:
+Quanitifes hoe well the hypothesis h performs by comparing its predicitions to actual outcomes
+- Binary classification = zero-one-loss
+- Regression = squared loss or absolute loss
+Why: The loss function helps evaluate the performance of each hypothesis. The lower the loss, the better the hypothesis.
+
+3. Train the Model on Training Data DTR:
+- Train model by minimizing the loss function on your training data DTR
+- adjust paramters of your model(like weights in neural network)
+
+4. Validate Model on Validation Data DVA:¨
+Purpose: The validation data helps you adjust your model during training.
+- Test the trained model on a training data, the model hasnt seen before to check for overfitting
+- Good performance on training data, and poor performance on DVA = overfitting.
+
+
+5. Test the Model on the Test Data DTE (final evaluation)
+Purpose: the test data is used for the final performance evaluation of the model
+- Data that has been kept completely seperate from the training and validation steps.
+- Test how well your model will perform on a real-world unseen data
+- Should not influence model tuning - only for peformance evaluation
+
+
+
+
+
+
+
+
+
+
+
