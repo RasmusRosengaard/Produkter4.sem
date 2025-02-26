@@ -1,0 +1,5 @@
+Statistical Law 80/20 Principle
+
+The Pareto principle is a popular example of such a "law". 
+It states that roughly 80% of the effects come from 20% of the causes, and is thus also known as the 80/20 rule. 
+In software engineering, it is often said that 80% of the errors are caused by just 20% of the bugs.

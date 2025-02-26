@@ -1,0 +1,38 @@
+K-Nearest neighbors (Supervised ML algorithm)
+- Works for Classification
+- Works for Regression
+
+Choosing K
+-  If K = 1, the model simply takes the closest data point and assigns its label.
+- If K = 5, the model looks at 5 closest points, and so on.
+Too Small K (e.g., K=1 or K=2)
+- Model is too sensitive to noise (overfits).
+- One wrong data point can easily mislead prediction
+Too Large K (e.g., K=50+)
+- Model smooths too much (underfits).
+- It may ignore useful patterns because it averages too many neighbors
+
+Key Assumptions
+- Data points that have similiar points, have similiar lables - need a good distance metrics to ensure this.
+- Pick ex. 3 nearest nabours and let them "vote" 3 nabours are crosses = vote = cross
+
+KNN & Distance Metrics
+- KNN is only as good as its distance metric because it assumes that closer points are more similar. 
+- If the chosen distance metric doesn’t reflect meaningful similarities in the data, KNN won’t work well
+
+
+Minkowski Distance (generalized form of Euclidean & Manhattan) -- Picture
+One formula, multiple distances types - Easily tuneable by changing p.
+- Manhattan Distance (p = 1) Good for grid data
+- Euclidean Distance (p = 2) Standard for continuous data (real-world measuresments)
+- Higher-order distances (p bigger than 2) Weights large differences more heavily.
+
+
+
+
+
+
+
+
+
+
